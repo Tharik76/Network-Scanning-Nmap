@@ -63,6 +63,20 @@ Checked for possible vulnerabilities.
 - Port scanning techniques
 - Reconnaissance in cybersecurity
 
+  ## 🔎 Key Observations
+- Found 3 active devices in network
+- Target device had open ports like 80 (HTTP)
+- Service detection revealed web server running
+
+  ## 🛡️ SOC Analyst Perspective
+If an attacker performs scanning:
+- Multiple connection attempts will appear in logs
+- IDS/IPS systems can detect abnormal scanning activity
+- Alerts may be triggered for port scanning behavior
+
+  ## ✅ Conclusion
+This project helped me understand how attackers perform reconnaissance and how security teams can detect scanning activity in real-world environments.
+
 ## ⚠️ Disclaimer
 This project was conducted in a safe and authorized lab environment for educational purposes only.
 
